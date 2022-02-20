@@ -1,0 +1,10 @@
+#deposit-success,
+#withdraw-success {
+   opacity: 0;
+   transition: opacity 0.4s ease;
+}
+#deposit-success ion-icon,
+#withdraw-success ion-icon {
+   margin-bottom: -7px;
+   --ionicon-stroke-width: 40px;
+}
